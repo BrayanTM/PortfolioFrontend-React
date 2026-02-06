@@ -1,0 +1,10 @@
+{
+    "navbar": {
+        "logo": "JoseCode",
+        "home": "Home",
+        "skills": "Skills",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact"
+    }
+}
