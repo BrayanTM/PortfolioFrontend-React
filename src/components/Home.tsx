@@ -23,7 +23,7 @@ export const Home = () => {
     <>
       <section
         id="home"
-        className="flex min-h-screen scroll-mt-16 flex-col items-center justify-center bg-slate-300 p-8 pt-24 md:p-12 lg:p-16 xl:p-30 dark:bg-gray-950"
+        className="flex min-h-screen scroll-mt-16 flex-col items-center justify-center bg-slate-300 p-8 pt-24 lg:p-16 xl:p-30 dark:bg-gray-950"
       >
         <div className="flex flex-col items-center justify-center text-center md:flex-row md:items-center md:justify-between md:text-left">
           <div className="md:w-1/2">
