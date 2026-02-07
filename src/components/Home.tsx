@@ -7,7 +7,7 @@ export const Home = () => {
   const { t } = useLanguage();
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/downloads/cv.pdf";
+    link.href = "/downloads/CV.pdf";
     link.download = "José_Tebelán_CV.pdf";
     document.body.appendChild(link);
     link.click();
