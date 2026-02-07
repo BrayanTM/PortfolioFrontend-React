@@ -43,16 +43,16 @@ export const Experience = () => {
                     }`}
                   >
                     <div className="rounded-xl border border-gray-400 bg-slate-200 p-6 transition-all hover:border-blue-700 hover:shadow-lg hover:shadow-blue-700 xl:p-8 dark:bg-gray-900">
-                      <span className="inline-block rounded-md bg-blue-700/10 px-2.5 py-1 text-xs font-semibold text-blue-700 2xl:text-sm">
+                      <span className="inline-block rounded-md bg-blue-700/10 px-2.5 py-1 text-xs font-semibold text-blue-700 2xl:text-sm dark:text-blue-500">
                         {exp.period}
                       </span>
                       <h3 className="mt-3 text-lg font-bold text-gray-800 lg:text-lg xl:text-xl dark:text-gray-200">
                         {exp.title}
                       </h3>
-                      <p className="mt-1 font-medium text-gray-700 lg:text-lg dark:text-gray-300">
+                      <p className="mt-1 font-medium text-gray-700 lg:text-lg dark:text-gray-400">
                         {exp.company}
                       </p>
-                      <p className="mt-3 leading-relaxed text-gray-600 lg:text-lg dark:text-gray-400">
+                      <p className="mt-3 leading-relaxed text-gray-600 lg:text-lg dark:text-gray-500">
                         {exp.description}
                       </p>
                     </div>
