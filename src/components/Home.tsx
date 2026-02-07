@@ -6,12 +6,6 @@ import { useLanguage } from "@/context/LanguageContext";
 export const Home = () => {
   const { t } = useLanguage();
   const handleDownloadCV = () => {
-    const link = document.createElement("a");
-    link.href = "/downloads/CV.pdf";
-    link.download = "José_Tebelán_CV.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
     confetti({
       particleCount: 100,
       spread: 70,
@@ -52,7 +46,8 @@ export const Home = () => {
                 <ArrowDown className="ml-1 h-4 w-4 lg:ml-4 lg:h-6 lg:w-6" />
               </a>
               <a
-                href="#"
+                href="/downloads/CV.pdf"
+                download="José_Tebelán_CV.pdf"
                 className="flex items-center rounded-md border border-gray-400 px-2 py-2 transition-colors duration-300 hover:bg-gray-200 md:px-4 lg:text-lg dark:border-gray-600 dark:hover:bg-gray-700"
                 onClick={handleDownloadCV}
               >
