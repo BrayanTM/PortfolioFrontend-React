@@ -18,5 +18,23 @@
     "techStack": {
         "title": "Tech Stack",
         "description": "A set of technologies that I use in an integrated way to design, develop, and deploy modern web applications, prioritizing performance, maintainability, and scalability."
+    },
+    "experience": {
+        "title": "Experience",
+        "description": "Throughout my career, I have had the opportunity to work on various projects that have allowed me to develop and refine my skills as a Full Stack and DevOps developer. My experience ranges from developing web applications to implementing cloud solutions, always with a focus on efficiency, scalability, and code quality.",
+        "items": [
+            {
+                "title": "Full Stack Developer",
+                "company": "Ahau-x",
+                "period": "Dec 2025 - Present",
+                "description": "Development and maintenance of web and desktop applications focused on computer vision applied to agriculture, implementing new features and optimizing frontend and backend workflows through API integration, databases, and cloud services (AWS), prioritizing scalability, stability, and effective data visualization."
+            },
+            {
+                "title": "Supervised Professional Practice – Electronics Technician",
+                "company": "Asociación Ajb ' atz ' Enlace Quiché - NGO -",
+                "period": "Jun 2018 - Dec 2018",
+                "description": "Computer equipment repair and software maintenance with fault diagnosis and electronic risk mitigation, reducing hardware recurrences by 30% and recurring failures by 65%. Implementation of structured cabling maintenance under international standards, improving network stability by 20% and reducing latency by 15%."
+            }
+        ]
     }
 }

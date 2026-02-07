@@ -18,5 +18,23 @@
     "techStack": {
         "title": "Stack Tecnológico",
         "description": "Conjunto de tecnologías que utilizo de forma integrada para diseñar, desarrollar y desplegar aplicaciones web modernas, priorizando rendimiento, mantenibilidad y escalabilidad."
+    },
+    "experience": {
+        "title": "Experiencia",
+        "description": "A lo largo de mi carrera, he tenido la oportunidad de trabajar en diversos proyectos que me han permitido desarrollar y perfeccionar mis habilidades como desarrollador Full Stack y DevOps. Mi experiencia abarca desde el desarrollo de aplicaciones web hasta la implementación de soluciones en la nube, siempre con un enfoque en la eficiencia, la escalabilidad y la calidad del código.",
+        "items": [
+            {
+                "title": "Desarrollador Full Stack",
+                "company": "Ahau-x",
+                "period": "Dic 2025 - Presente",
+                "description": "Desarrollo y mantenimiento de aplicaciones web y de escritorio orientadas a visión por computadora aplicada a agricultura, implementando nuevas funcionalidades y optimizando flujos en frontend y backend mediante la integración de APIs, bases de datos y servicios en la nube (AWS), priorizando la escalabilidad, estabilidad y visualización efectiva de datos."
+            },
+            {
+                "title": "Práctica Profesional Supervisada – Técnico en Electrónica",
+                "company": "Asociación Ajb ' atz ' Enlace Quiché - ONG -",
+                "period": "Jun 2018 - Dic 2018",
+                "description": "Reparación de equipos de cómputo y mantenimiento de software con diagnóstico de fallos y mitigación de riesgos electrónicos, reduciendo un 30% las reincidencias de hardware y un 65% los fallos recurrentes. Implementación de mantenimiento de cableado estructurado bajo estándares internacionales, mejorando un 20% la estabilidad de red y reduciendo un 15% la latencia."
+            }
+        ]
     }
 }
