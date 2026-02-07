@@ -28,7 +28,7 @@ export const Skills = () => {
           <h2 className="mb-4 text-4xl font-bold text-gray-800 xl:text-5xl dark:text-gray-200">
             {t.techStack.title}
           </h2>
-          <p className="mb-6 text-gray-600 lg:w-2/3 lg:text-lg xl:text-xl dark:text-gray-400">
+          <p className="mb-6 text-gray-600 lg:text-lg xl:max-w-7xl xl:text-xl dark:text-gray-400">
             {t.techStack.description}
           </p>
         </div>
