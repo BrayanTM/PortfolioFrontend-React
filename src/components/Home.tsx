@@ -27,7 +27,7 @@ export const Home = () => {
       >
         <div className="flex flex-col items-center justify-center text-center md:flex-row md:items-start md:justify-between md:text-left">
           <div className="md:w-1/2">
-            <div className="flex flex-col items-center text-center md:items-start md:text-left lg:mt-12 lg:max-w-3xl xl:max-w-4xl">
+            <div className="flex flex-col items-center text-center md:items-start md:text-left lg:mt-12">
               <h1 className="mb-4 text-5xl font-bold text-gray-800 lg:text-6xl dark:text-gray-200">
                 {t.home.greeting} <p className="text-blue-600">{t.home.name}</p>
               </h1>
