@@ -39,7 +39,7 @@ export const Home = () => {
               <h1 className="mb-6 text-xl font-semibold text-gray-800 lg:text-2xl xl:text-3xl dark:text-gray-200">
                 {t.home.title}
               </h1>
-              <p className="text-md mb-3 text-gray-600 lg:text-lg xl:text-xl dark:text-gray-400">
+              <p className="mb-3 text-gray-600 lg:text-lg xl:text-xl dark:text-gray-400">
                 {t.home.description}
               </p>
             </div>
