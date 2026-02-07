@@ -23,12 +23,12 @@ export const Home = () => {
     <>
       <section
         id="home"
-        className="flex min-h-screen scroll-mt-16 flex-col items-center justify-center bg-slate-300 p-8 pt-24 lg:p-16 xl:p-30 dark:bg-gray-950"
+        className="flex min-h-screen scroll-mt-16 flex-col items-center justify-center bg-slate-300 p-8 pt-24 lg:p-16 2xl:p-32 dark:bg-gray-950"
       >
         <div className="flex flex-col items-center justify-center text-center md:flex-row md:items-center md:justify-between md:text-left">
           <div className="md:w-1/2">
             <div className="flex flex-col items-center text-center md:items-start md:text-left lg:mt-12">
-              <div className="lg:flex lg:flex-row lg:items-baseline lg:space-x-4">
+              <div className="2xl:flex 2xl:flex-row 2xl:items-baseline 2xl:space-x-4">
                 <h1 className="mb-4 text-5xl font-bold text-gray-800 xl:text-6xl dark:text-gray-200">
                   {t.home.greeting}
                 </h1>
@@ -36,7 +36,7 @@ export const Home = () => {
                   {t.home.name}
                 </h1>
               </div>
-              <h1 className="mb-6 text-xl font-semibold text-gray-800 lg:text-2xl dark:text-gray-200">
+              <h1 className="mb-6 text-xl font-semibold text-gray-800 lg:text-2xl xl:text-3xl dark:text-gray-200">
                 {t.home.title}
               </h1>
               <p className="text-md mb-3 text-gray-600 lg:text-lg xl:text-xl dark:text-gray-400">
@@ -62,7 +62,7 @@ export const Home = () => {
             </div>
           </div>
           <div className="mt-8 md:flex md:w-1/2 md:justify-end xl:justify-center">
-            <div className="w-64 rounded-full border-4 border-blue-950 md:w-70 lg:w-90">
+            <div className="w-64 rounded-full border-4 border-blue-950 md:w-70 lg:w-90 2xl:w-96">
               <img src={profile} alt="José Tebelán" className="rounded-full" />
             </div>
           </div>
