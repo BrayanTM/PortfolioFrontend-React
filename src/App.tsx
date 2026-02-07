@@ -3,6 +3,7 @@ import { Navbar } from "./components/Navbar";
 import { LanguageProvider } from "./context/LanguageContext";
 import { Home } from "@/components/Home";
 import { Skills } from "./components/Skills";
+import { Experience } from "./components/Experience";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Home />
         <Skills />
+        <Experience />
         <SpeedInsights />
       </LanguageProvider>
     </>
