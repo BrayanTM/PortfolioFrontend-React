@@ -1,10 +1,18 @@
 {
     "navbar": {
-        "logo": "JoseCode",
+        "logo": "<Dev />",
         "home": "Inicio",
-        "skills": "Skills",
+        "skills": "Tecnologías",
         "experience": "Experiencia",
         "projects": "Proyectos",
         "contact": "Contacto"
+    },
+    "home": {
+        "greeting": "Hola, soy",
+        "name": "José Tebelán",
+        "title": "Desarrollador Full Stack | DevOps",
+        "description": "Desarrollador Full Stack (Python + TypeScript) con enfoque en Backend y DevOps. Desarrollo y mantengo aplicaciones web y de escritorio, integrando APIs, bases de datos y servicios en la nube. Trabajo con Python, JavaScript/TypeScript, AWS y Docker, enfocado en crear soluciones escalables, estables y de impacto real!",
+        "projectsButton": "Ver Proyectos",
+        "downloadCVButton": "Descargar CV"
     }
 }

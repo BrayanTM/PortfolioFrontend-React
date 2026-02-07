@@ -1,10 +1,18 @@
 {
     "navbar": {
-        "logo": "JoseCode",
+        "logo": "<Dev />",
         "home": "Home",
-        "skills": "Skills",
+        "skills": "Tech Stack",
         "experience": "Experience",
         "projects": "Projects",
         "contact": "Contact"
+    },
+    "home": {
+        "greeting": "Hello, I'm",
+        "name": "José Tebelán",
+        "title": "Full Stack Developer | DevOps",
+        "description": "Full Stack Developer (Python + TypeScript) with a focus on Backend and DevOps. I develop and maintain web and desktop applications, integrating APIs, databases, and cloud services. I work with Python, JavaScript/TypeScript, AWS, and Docker, aiming to create scalable, stable, and impactful solutions!",
+        "projectsButton": "View Projects",
+        "downloadCVButton": "Download CV"
     }
 }

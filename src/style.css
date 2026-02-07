@@ -217,16 +217,16 @@
     @apply border-border outline-ring/50;
   }
   body {
-    font-family: "Montserrat Alternates", "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     @apply bg-slate-300 dark:bg-gray-950;
   }
 }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
+@layer utilities {
+  .montserrat {
+    font-family: "Montserrat Alternates", "Roboto", sans-serif;
   }
-  body {
-    @apply bg-background text-foreground;
+  .roboto {
+    font-family: "Roboto", "Montserrat Alternates", sans-serif;
   }
 }
