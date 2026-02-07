@@ -23,40 +23,45 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 z-50 h-16 w-full border-y border-gray-400 bg-slate-300/75 p-4 shadow-md backdrop-blur-md dark:bg-gray-950/75">
+      <nav className="fixed top-0 left-0 z-50 h-18 w-full border-y border-gray-400 bg-slate-300/75 p-4 shadow-md backdrop-blur-md dark:bg-gray-950/75 dark:shadow-gray-700">
         <div className="container mx-auto flex items-center justify-between px-4">
           <div className="text-2xl font-bold text-gray-800 dark:text-slate-100">
             {t.navbar.logo}
           </div>
           {isMenuOpen ? (
-            <div className="absolute top-16 left-0 flex w-full flex-col border-y border-gray-400 bg-slate-300 py-4 md:hidden dark:bg-gray-950">
+            <div className="absolute top-18 left-0 flex w-full flex-col border-b border-gray-400 bg-slate-300 py-4 md:hidden dark:bg-gray-950">
               <a
                 href="#home"
                 className="px-4 py-2 text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+                onClick={() => setIsMenuOpen(false)}
               >
                 {t.navbar.home}
               </a>
               <a
                 href="#skills"
                 className="px-4 py-2 text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+                onClick={() => setIsMenuOpen(false)}
               >
                 {t.navbar.skills}
               </a>
               <a
                 href="#experience"
                 className="px-4 py-2 text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+                onClick={() => setIsMenuOpen(false)}
               >
                 {t.navbar.experience}
               </a>
               <a
                 href="#projects"
                 className="px-4 py-2 text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+                onClick={() => setIsMenuOpen(false)}
               >
                 {t.navbar.projects}
               </a>
               <a
                 href="#contact"
                 className="px-4 py-2 text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+                onClick={() => setIsMenuOpen(false)}
               >
                 {t.navbar.contact}
               </a>
@@ -138,9 +143,9 @@ export const Navbar = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? (
-                <X className="size-4 text-gray-500" />
+                <X className="size-6 text-gray-500" />
               ) : (
-                <Menu className="size-4 text-gray-500" />
+                <Menu className="size-6 text-gray-500" />
               )}
             </button>
           </div>

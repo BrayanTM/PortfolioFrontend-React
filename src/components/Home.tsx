@@ -28,7 +28,7 @@ export const Home = () => {
         <div className="flex flex-col items-center justify-center text-center md:flex-row md:items-start md:justify-between md:text-left">
           <div className="md:mr-16 md:w-1/2">
             <div className="flex max-w-3xl flex-col items-center text-center md:items-start md:text-left">
-              <h1 className="mb-4 text-6xl font-bold text-gray-800 dark:text-gray-200">
+              <h1 className="mb-4 text-5xl font-bold text-gray-800 md:text-6xl dark:text-gray-200">
                 {t.home.greeting} <p className="text-blue-600">{t.home.name}</p>
               </h1>
               <h1 className="mb-6 text-2xl font-semibold text-gray-800 dark:text-gray-200">
@@ -38,20 +38,20 @@ export const Home = () => {
                 {t.home.description}
               </p>
             </div>
-            <div className="mt-3 flex flex-row items-center justify-center space-x-12 text-gray-800 md:justify-start dark:text-gray-200">
+            <div className="mt-3 flex flex-row items-center justify-center space-x-4 text-gray-800 md:justify-start dark:text-gray-200">
               <a
                 href="#projects"
-                className="flex items-center rounded-md border bg-blue-600 px-4 py-2 text-white transition-colors duration-300 hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-400"
+                className="flex items-center rounded-md border bg-blue-600 px-2 py-2 text-white transition-colors duration-300 hover:bg-blue-800 md:px-4 dark:bg-blue-600 dark:hover:bg-blue-400"
               >
                 {t.home.projectsButton}
-                <ArrowDown className="ml-2 h-4 w-4" />
+                <ArrowDown className="ml-1 h-4 w-4 md:ml-4" />
               </a>
               <a
                 href="#"
-                className="flex items-center rounded-md border border-gray-400 px-4 py-2 transition-colors duration-300 hover:bg-gray-200 dark:border-gray-600 dark:hover:bg-gray-700"
+                className="flex items-center rounded-md border border-gray-400 px-2 py-2 transition-colors duration-300 hover:bg-gray-200 md:px-4 dark:border-gray-600 dark:hover:bg-gray-700"
                 onClick={handleDownloadCV}
               >
-                <Download className="mr-2 h-4 w-4" />
+                <Download className="mr-1 h-4 w-4 md:mr-4" />
                 {t.home.downloadCVButton}
               </a>
             </div>
