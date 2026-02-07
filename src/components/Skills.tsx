@@ -1,0 +1,122 @@
+import python from "/images/skills/python.png";
+import typescript from "/images/skills/typescript.png";
+import react from "/images/skills/react.png";
+import vue from "/images/skills/vue.png";
+import tailwindcss from "/images/skills/tailwindcss.png";
+import aws from "/images/skills/aws.png";
+import docker from "/images/skills/docker.png";
+import django from "/images/skills/django.png";
+import fastapi from "/images/skills/fastapi.png";
+import nextjs from "/images/skills/nextjs.png";
+import git from "/images/skills/git.png";
+import github from "/images/skills/github.png";
+import postgresql from "/images/skills/postgresql.png";
+import mongodb from "/images/skills/mongodb.png";
+import { useLanguage } from "@/context/LanguageContext";
+
+export const Skills = () => {
+  const { t } = useLanguage();
+  return (
+    <>
+      <section
+        id="skills"
+        className="flex min-h-screen scroll-mt-16 flex-col items-center justify-center bg-slate-200 p-8 dark:bg-gray-900"
+      >
+        <div className="flex flex-col items-center justify-center text-center xl:px-64">
+          <h2 className="mb-4 text-4xl font-bold text-gray-800 dark:text-gray-200">
+            {t.techStack.title}
+          </h2>
+          <p className="mb-6 text-lg text-gray-600 dark:text-gray-400">
+            {t.techStack.description}
+          </p>
+        </div>
+        <div className="grid grid-cols-2 gap-6 px-4 md:grid-cols-7 xl:px-16">
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-yellow-500 hover:bg-gray-100 hover:shadow-yellow-600 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              Python
+            </h3>
+            <img src={python} alt="Python" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-blue-600 hover:bg-gray-100 hover:shadow-blue-600 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              TypeScript
+            </h3>
+            <img src={typescript} alt="TypeScript" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-green-500 hover:bg-gray-100 hover:shadow-green-500 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              Django
+            </h3>
+            <img src={django} alt="Django" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-blue-900 hover:bg-gray-100 hover:shadow-blue-900 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              FastAPI
+            </h3>
+            <img src={fastapi} alt="FastAPI" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-blue-900 hover:bg-gray-100 hover:shadow-blue-900 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              Next.js
+            </h3>
+            <img src={nextjs} alt="Next.js" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-blue-400 hover:bg-gray-100 hover:shadow-blue-400 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              React
+            </h3>
+            <img src={react} alt="React" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-green-500 hover:bg-gray-100 hover:shadow-green-500 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              Vue
+            </h3>
+            <img src={vue} alt="Vue" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-b-cyan-600 hover:bg-gray-100 hover:shadow-cyan-600 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              Tailwind CSS
+            </h3>
+            <img src={tailwindcss} alt="Tailwind CSS" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-cyan-500 hover:bg-gray-100 hover:shadow-cyan-500 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              Docker
+            </h3>
+            <img src={docker} alt="Docker" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-blue-900 hover:bg-gray-100 hover:shadow-blue-900 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              AWS
+            </h3>
+            <img src={aws} alt="AWS" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-orange-500 hover:bg-gray-100 hover:shadow-orange-500 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              Git
+            </h3>
+            <img src={git} alt="Git" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-blue-900 hover:bg-gray-100 hover:shadow-blue-900 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              GitHub
+            </h3>
+            <img src={github} alt="GitHub" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-blue-700 hover:bg-gray-100 hover:shadow-blue-700 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              PostgreSQL
+            </h3>
+            <img src={postgresql} alt="PostgreSQL" className="h-12 w-12" />
+          </div>
+          <div className="flex flex-col items-center rounded-lg border bg-white p-4 shadow-md transition-transform duration-300 hover:scale-105 hover:border-green-600 hover:bg-gray-100 hover:shadow-green-600 dark:bg-gray-800 hover:dark:bg-gray-700">
+            <h3 className="text-md mb-2 text-gray-800 md:text-lg dark:text-gray-200">
+              MongoDB
+            </h3>
+            <img src={mongodb} alt="MongoDB" className="h-12 w-12" />
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
