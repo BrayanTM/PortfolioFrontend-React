@@ -46,8 +46,10 @@ export const Home = () => {
                 <ArrowDown className="ml-1 h-4 w-4 lg:ml-4 lg:h-6 lg:w-6" />
               </a>
               <a
-                href="/downloads/CV.pdf"
-                download="José_Tebelán_CV.pdf"
+                // https://drive.google.com/file/d/17FLO82g-Rbrd_qeAYFcuZTLGNrdEmnRH/view?usp=sharing
+                href="https://drive.google.com/uc?export=download&id=17FLO82g-Rbrd_qeAYFcuZTLGNrdEmnRH"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center rounded-md border border-gray-400 px-2 py-2 transition-colors duration-300 hover:bg-gray-200 md:px-4 lg:text-lg dark:border-gray-600 dark:hover:bg-gray-700"
                 onClick={handleDownloadCV}
               >

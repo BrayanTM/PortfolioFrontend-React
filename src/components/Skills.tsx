@@ -1,19 +1,19 @@
-import python from "/images/skills/python.png";
-import typescript from "/images/skills/typescript.png";
-import react from "/images/skills/react.png";
-import vue from "/images/skills/vue.png";
-import tailwindcss from "/images/skills/tailwindcss.png";
-import aws from "/images/skills/aws.png";
-import docker from "/images/skills/docker.png";
-import django from "/images/skills/django.png";
-import fastapi from "/images/skills/fastapi.png";
-import nextjs from "/images/skills/nextjs.png";
-import git from "/images/skills/git.png";
-import github from "/images/skills/github.png";
-import postgresql from "/images/skills/postgresql.png";
-import mongodb from "/images/skills/mongodb.png";
-import linux from "/images/skills/linux.png";
-import postman from "/images/skills/postman.png";
+import python from "/images/icons/python.png";
+import typescript from "/images/icons/typescript.png";
+import react from "/images/icons/react.png";
+import vue from "/images/icons/vue.png";
+import tailwindcss from "/images/icons/tailwindcss.png";
+import aws from "/images/icons/aws.png";
+import docker from "/images/icons/docker.png";
+import django from "/images/icons/django.png";
+import fastapi from "/images/icons/fastapi.png";
+import nextjs from "/images/icons/nextjs.png";
+import git from "/images/icons/git.png";
+import github from "/images/icons/github.png";
+import postgresql from "/images/icons/postgresql.png";
+import mongodb from "/images/icons/mongodb.png";
+import linux from "/images/icons/linux.png";
+import postman from "/images/icons/postman.png";
 import { useLanguage } from "@/context/LanguageContext";
 
 export const Skills = () => {
