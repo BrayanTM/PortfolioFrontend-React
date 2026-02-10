@@ -10,7 +10,7 @@
     "home": {
         "greeting": "Hola, soy",
         "name": "José Tebelán",
-        "title": "Desarrollador Full Stack y DevOps",
+        "title": "Ingeniero en Sistemas, Desarrollador Full Stack y DevOps",
         "description": "Desarrollador Full Stack (Python + TypeScript) con enfoque en Backend y DevOps. Desarrollo y mantengo aplicaciones web y de escritorio, integrando APIs, bases de datos y servicios en la nube. Trabajo con Python, JavaScript/TypeScript, AWS y Docker, enfocado en crear soluciones escalables, estables y de impacto real!",
         "projectsButton": "Ver Proyectos",
         "downloadCVButton": "Descargar CV"
@@ -34,6 +34,46 @@
                 "company": "Asociación Ajb ' atz ' Enlace Quiché - ONG -",
                 "period": "Jun 2018 - Dic 2018",
                 "description": "Reparación de equipos de cómputo y mantenimiento de software con diagnóstico de fallos y mitigación de riesgos electrónicos, reduciendo un 30% las reincidencias de hardware y un 65% los fallos recurrentes. Implementación de mantenimiento de cableado estructurado bajo estándares internacionales, mejorando un 20% la estabilidad de red y reduciendo un 15% la latencia."
+            }
+        ]
+    },
+    "projects": {
+        "title": "Proyectos",
+        "description": "Aquí algunos de los proyectos en los que he trabajado, mostrando mis habilidades y experiencia en desarrollo Full Stack y DevOps. Cada proyecto destaca diferentes tecnologías y soluciones que he implementado para crear aplicaciones de impacto.",
+        "techStack": "Tecnologías",
+        "demo": "Demo",
+        "viewAllProjects": "Ver Todos los Proyectos",
+        "items": [
+            {
+                "title": "CookBook App",
+                "technologies": [
+                    "Django",
+                    "Vue.js",
+                    "PostgreSQL"
+                ],
+                "description": "RecetarioWeb es una aplicación web full-stack moderna y robusta diseñada para gestionar, compartir y descubrir recetas de cocina. El proyecto combina un backend potente desarrollado con Django REST Framework y un frontend interactivo construido con Vue.js 3, ofreciendo una experiencia de usuario fluida y profesional.",
+                "images": [
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687369/RecetarioWeb1_fiwwxs.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687369/RecetarioWeb4_fyerhb.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687368/RecetarioWeb2_yy4d9e.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687369/RecetarioWeb3_roecn0.png"
+                ],
+                "url": "cookbook-bice-eight.vercel.app"
+            },
+            {
+                "title": "Blog Spots",
+                "technologies": [
+                    "Flask",
+                    "PostgreSQL"
+                ],
+                "description": "Flask-BlogPosts es una aplicación web moderna para la creación y gestión de blogs. Permite a los usuarios registrarse, crear publicaciones con un editor de texto enriquecido, gestionar perfiles con avatares almacenados en la nube, y buscar contenido dentro del blog.",
+                "images": [
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687367/BlogsSpots1_pjsglc.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687367/BlogsSpots2_hpdder.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687368/BlogsSpots4_ctr67r.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687367/BlogsSpots3_eqrti5.png"
+                ],
+                "url": "blogposts-ivory.vercel.app"
             }
         ]
     }

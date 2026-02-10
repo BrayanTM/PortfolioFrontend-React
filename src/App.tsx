@@ -4,6 +4,7 @@ import { LanguageProvider } from "./context/LanguageContext";
 import { Home } from "@/components/Home";
 import { Skills } from "./components/Skills";
 import { Experience } from "./components/Experience";
+import { Projects } from "./components/Projects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Home />
         <Skills />
         <Experience />
+        <Projects />
         <SpeedInsights />
       </LanguageProvider>
     </>
