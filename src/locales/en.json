@@ -10,7 +10,7 @@
     "home": {
         "greeting": "Hello, I'm",
         "name": "José Tebelán",
-        "title": "Full Stack Developer and DevOps",
+        "title": "Systems Engineer, Full Stack Developer and DevOps",
         "description": "Full Stack Developer (Python + TypeScript) with a focus on Backend and DevOps. I develop and maintain web and desktop applications, integrating APIs, databases, and cloud services. I work with Python, JavaScript/TypeScript, AWS, and Docker, aiming to create scalable, stable, and impactful solutions!",
         "projectsButton": "View Projects",
         "downloadCVButton": "Download CV"
@@ -36,5 +36,63 @@
                 "description": "Computer equipment repair and software maintenance with fault diagnosis and electronic risk mitigation, reducing hardware recurrences by 30% and recurring failures by 65%. Implementation of structured cabling maintenance under international standards, improving network stability by 20% and reducing latency by 15%."
             }
         ]
+    },
+    "projects": {
+        "title": "Projects",
+        "description": "Here are some of the projects I've worked on, showcasing my skills and experience in Full Stack development and DevOps. Each project highlights different technologies and solutions I've implemented to create impactful applications.",
+        "techStack": "Technologies",
+        "demo": "Demo",
+        "viewAllProjects": "View All Projects",
+        "items": [
+            {
+                "title": "CookBook App",
+                "technologies": [
+                    "Python",
+                    "Django",
+                    "Django REST Framework",
+                    "Docker",
+                    "JavaScript",
+                    "Vue.js",
+                    "Cloudinary",
+                    "PostgreSQL"
+                ],
+                "description": "RecetarioWeb is a modern and robust full-stack web application designed to manage, share, and discover cooking recipes. The project combines a powerful backend developed with Django REST Framework and an interactive frontend built with Vue.js 3, offering a smooth and professional user experience.",
+                "images": [
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687369/RecetarioWeb1_fiwwxs.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687369/RecetarioWeb4_fyerhb.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687368/RecetarioWeb2_yy4d9e.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687369/RecetarioWeb3_roecn0.png"
+                ],
+                "url": "cookbook-bice-eight.vercel.app",
+                "github": "https://github.com/BrayanTM/RecetarioWeb"
+            },
+            {
+                "title": "Blog Spots",
+                "technologies": [
+                    "Flask",
+                    "Bootstrap",
+                    "Cloudinary",
+                    "PostgreSQL"
+                ],
+                "description": "Flask-BlogPosts is a modern web application for creating and managing blogs. It allows users to register, create posts with a rich text editor, manage profiles with avatars stored in the cloud, and search content within the blog.",
+                "images": [
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687367/BlogsSpots1_pjsglc.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687367/BlogsSpots2_hpdder.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687368/BlogsSpots4_ctr67r.png",
+                    "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687367/BlogsSpots3_eqrti5.png"
+                ],
+                "url": "blogposts-ivory.vercel.app",
+                "github": "https://github.com/BrayanTM/Flask-BlogPosts"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "Do you have a project in mind? Let's talk.",
+        "connectWithMe": "Connect With Me",
+        "alsoFindMe": "You can also find me on my social networks or send me a direct email."
+    },
+    "footer": {
+        "text": "José Tebelán. All rights reserved."
     }
 }
