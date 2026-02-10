@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, type MouseEvent } from "react";
 import { Switch } from "@/components/ui/switch";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { setLocalStorage } from "@/store/setLocalStorage.store";
@@ -13,6 +13,20 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
   const { language, setLanguage, t } = useLanguage();
+
+  const handleNavClick = (
+    event: MouseEvent<HTMLAnchorElement>,
+    sectionId: string,
+  ) => {
+    event.preventDefault();
+    const target = document.getElementById(sectionId);
+
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    setIsMenuOpen(false);
+  };
 
   useEffect(() => {
     if (theme === "light") {
@@ -57,7 +71,6 @@ export const Navbar = () => {
           <div className="text-2xl font-bold text-gray-800 dark:text-slate-100">
             {t.navbar.logo}
           </div>
-          {/* TODO: Hacer una transición lenta al hacer clic sobre un enlace */}
           {isMenuOpen ? (
             <div className="absolute top-18 left-0 flex w-full flex-col border-b border-gray-400 bg-slate-300 py-4 md:hidden dark:bg-gray-950">
               <a
@@ -67,7 +80,7 @@ export const Navbar = () => {
                     ? "text-gray-800 dark:text-gray-200"
                     : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
                 }`}
-                onClick={() => setIsMenuOpen(false)}
+                onClick={(event) => handleNavClick(event, "home")}
               >
                 {t.navbar.home}
               </a>
@@ -78,7 +91,7 @@ export const Navbar = () => {
                     ? "text-gray-800 dark:text-gray-200"
                     : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
                 }`}
-                onClick={() => setIsMenuOpen(false)}
+                onClick={(event) => handleNavClick(event, "skills")}
               >
                 {t.navbar.skills}
               </a>
@@ -89,7 +102,7 @@ export const Navbar = () => {
                     ? "text-gray-800 dark:text-gray-200"
                     : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
                 }`}
-                onClick={() => setIsMenuOpen(false)}
+                onClick={(event) => handleNavClick(event, "experience")}
               >
                 {t.navbar.experience}
               </a>
@@ -100,7 +113,7 @@ export const Navbar = () => {
                     ? "text-gray-800 dark:text-gray-200"
                     : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
                 }`}
-                onClick={() => setIsMenuOpen(false)}
+                onClick={(event) => handleNavClick(event, "projects")}
               >
                 {t.navbar.projects}
               </a>
@@ -111,7 +124,7 @@ export const Navbar = () => {
                     ? "text-gray-800 dark:text-gray-200"
                     : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
                 }`}
-                onClick={() => setIsMenuOpen(false)}
+                onClick={(event) => handleNavClick(event, "contact")}
               >
                 {t.navbar.contact}
               </a>
@@ -125,6 +138,7 @@ export const Navbar = () => {
                     ? "text-gray-800 dark:text-gray-200"
                     : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
                 }`}
+                onClick={(event) => handleNavClick(event, "home")}
               >
                 {t.navbar.home}
               </a>
@@ -135,6 +149,7 @@ export const Navbar = () => {
                     ? "text-gray-800 dark:text-gray-200"
                     : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
                 }`}
+                onClick={(event) => handleNavClick(event, "skills")}
               >
                 {t.navbar.skills}
               </a>
@@ -145,6 +160,7 @@ export const Navbar = () => {
                     ? "text-gray-800 dark:text-gray-200"
                     : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
                 }`}
+                onClick={(event) => handleNavClick(event, "experience")}
               >
                 {t.navbar.experience}
               </a>
@@ -155,6 +171,7 @@ export const Navbar = () => {
                     ? "text-gray-800 dark:text-gray-200"
                     : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
                 }`}
+                onClick={(event) => handleNavClick(event, "projects")}
               >
                 {t.navbar.projects}
               </a>
@@ -165,6 +182,7 @@ export const Navbar = () => {
                     ? "text-gray-800 dark:text-gray-200"
                     : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
                 }`}
+                onClick={(event) => handleNavClick(event, "contact")}
               >
                 {t.navbar.contact}
               </a>
