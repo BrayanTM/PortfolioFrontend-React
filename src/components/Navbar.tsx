@@ -57,6 +57,7 @@ export const Navbar = () => {
           <div className="text-2xl font-bold text-gray-800 dark:text-slate-100">
             {t.navbar.logo}
           </div>
+          {/* TODO: Hacer una transición lenta al hacer clic sobre un enlace */}
           {isMenuOpen ? (
             <div className="absolute top-18 left-0 flex w-full flex-col border-b border-gray-400 bg-slate-300 py-4 md:hidden dark:bg-gray-950">
               <a
