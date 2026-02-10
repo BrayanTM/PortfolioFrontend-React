@@ -47,8 +47,13 @@
             {
                 "title": "CookBook App",
                 "technologies": [
+                    "Python",
                     "Django",
+                    "Django REST Framework",
+                    "Docker",
+                    "JavaScript",
                     "Vue.js",
+                    "Cloudinary",
                     "PostgreSQL"
                 ],
                 "description": "RecetarioWeb is a modern and robust full-stack web application designed to manage, share, and discover cooking recipes. The project combines a powerful backend developed with Django REST Framework and an interactive frontend built with Vue.js 3, offering a smooth and professional user experience.",
@@ -58,12 +63,15 @@
                     "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687368/RecetarioWeb2_yy4d9e.png",
                     "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687369/RecetarioWeb3_roecn0.png"
                 ],
-                "url": "cookbook-bice-eight.vercel.app"
+                "url": "cookbook-bice-eight.vercel.app",
+                "github": "https://github.com/BrayanTM/RecetarioWeb"
             },
             {
                 "title": "Blog Spots",
                 "technologies": [
                     "Flask",
+                    "Bootstrap",
+                    "Cloudinary",
                     "PostgreSQL"
                 ],
                 "description": "Flask-BlogPosts is a modern web application for creating and managing blogs. It allows users to register, create posts with a rich text editor, manage profiles with avatars stored in the cloud, and search content within the blog.",
@@ -73,7 +81,8 @@
                     "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687368/BlogsSpots4_ctr67r.png",
                     "https://res.cloudinary.com/dog9jz83i/image/upload/v1770687367/BlogsSpots3_eqrti5.png"
                 ],
-                "url": "blogposts-ivory.vercel.app"
+                "url": "blogposts-ivory.vercel.app",
+                "github": "https://github.com/BrayanTM/Flask-BlogPosts"
             }
         ]
     },

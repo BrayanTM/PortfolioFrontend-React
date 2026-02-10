@@ -8,6 +8,7 @@ interface ProjectCardProps {
     technologies: string[];
     description: string;
     url?: string;
+    github?: string;
   };
   techStackLabel: string;
   demoLabel: string;
@@ -20,6 +21,10 @@ export const ProjectCard = ({
 }: ProjectCardProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
+
+  const MAX_TECHS = 8;
+  const techsToShow = project.technologies.slice(0, MAX_TECHS);
+  const extraTechCount = project.technologies.length - MAX_TECHS;
 
   // Validación de imágenes
   const images = project.images || [];
@@ -124,14 +129,21 @@ export const ProjectCard = ({
       <p className="mt-3 inline-block font-semibold text-gray-600 lg:text-lg xl:text-xl dark:text-gray-300">
         {techStackLabel}:
       </p>
-      {project.technologies.map((tech, index) => (
-        <span
-          key={index}
-          className="ml-2 rounded-md bg-blue-600/20 px-2.5 py-1 font-semibold text-blue-700 2xl:text-lg dark:text-blue-400"
-        >
-          {tech}
-        </span>
-      ))}
+      <div className="mt-2 flex flex-wrap gap-2">
+        {techsToShow.map((tech, index) => (
+          <span
+            key={index}
+            className="rounded-md bg-blue-600/20 px-2.5 py-1 text-sm font-semibold text-blue-700 dark:text-blue-400 sm:text-base"
+          >
+            {tech}
+          </span>
+        ))}
+        {extraTechCount > 0 && (
+          <span className="rounded-md bg-gray-200 px-2.5 py-1 text-sm font-semibold text-gray-700 dark:bg-gray-700 dark:text-gray-200 sm:text-base">
+            +{extraTechCount} más
+          </span>
+        )}
+      </div>
       <p className="mt-3 leading-relaxed text-gray-600 lg:text-lg dark:text-gray-400">
         {project.description}
       </p>
@@ -140,9 +152,20 @@ export const ProjectCard = ({
           href={`https://${project.url}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-3 inline-block text-blue-700 hover:underline dark:text-blue-500"
+          className="mt-3 mr-8 inline-block text-blue-700 hover:underline dark:text-blue-500"
         >
           {demoLabel}
+          <SquareArrowOutUpRight className="ml-2 inline-block h-4 w-4" />
+        </a>
+      )}
+      {project.github && (
+        <a
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-3 inline-block text-blue-700 hover:underline dark:text-blue-500"
+        >
+          GitHub
           <SquareArrowOutUpRight className="ml-2 inline-block h-4 w-4" />
         </a>
       )}
