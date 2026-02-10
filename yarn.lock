@@ -389,11 +389,6 @@
     "@eslint/core" "^0.17.0"
     levn "^0.4.1"
 
-"@fancyapps/ui@^6.1.10":
-  version "6.1.10"
-  resolved "https://registry.yarnpkg.com/@fancyapps/ui/-/ui-6.1.10.tgz#b83e5872439bbfa8e502f53e16e50177457e9f24"
-  integrity sha512-sLiIk2jLPY10nzuZu5fMMaS5//8g44QrSREVnI4VXs4Kih+g2wMUyfgsOdTqw36BfVh6ghmMKadm+Mmxy5ynvw==
-
 "@floating-ui/core@^1.7.4":
   version "1.7.4"
   resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.7.4.tgz#4a006a6e01565c0f87ba222c317b056a2cffd2f4"

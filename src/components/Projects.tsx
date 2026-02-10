@@ -4,7 +4,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   return (
     <>
       <section
@@ -23,7 +23,7 @@ export const Projects = () => {
         <div className="grid gap-8 md:grid-cols-2 xl:max-w-7xl">
           {t.projects.items.map((project, index) => (
             <ProjectCard
-              key={index}
+              key={`${language}-${project.title}-${index}`}
               project={project}
               techStackLabel={t.projects.techStack}
               demoLabel={t.projects.demo}
