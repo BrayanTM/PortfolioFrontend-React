@@ -76,5 +76,11 @@
                 "url": "blogposts-ivory.vercel.app"
             }
         ]
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "Do you have a project in mind? Let's talk.",
+        "connectWithMe": "Connect With Me",
+        "alsoFindMe": "You can also find me on my social networks or send me a direct email."
     }
 }
