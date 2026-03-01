@@ -47,7 +47,7 @@ export const Experience = () => {
                         {exp.period}
                       </span>
                       {isLeft ? (
-                        <div className="flex items-center justify-end gap-4">
+                        <div className="mt-2 flex items-center justify-end gap-4">
                           <div className="flex flex-col">
                             <h3 className="mt-3 text-lg font-bold text-gray-800 lg:text-lg xl:text-xl dark:text-gray-200">
                               {exp.title}
