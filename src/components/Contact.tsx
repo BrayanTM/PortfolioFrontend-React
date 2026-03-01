@@ -1,5 +1,5 @@
-import { useLanguage } from "@/context/LanguageContext";
 import { useEffect } from "react";
+import { useLanguage } from "@/context/LanguageContext";
 
 export const Contact = () => {
   const { t } = useLanguage();
@@ -13,8 +13,11 @@ export const Contact = () => {
 
   return (
     <>
-      <section id="contact">
-        <div className="flex min-h-screen scroll-mt-16 flex-col items-center justify-center bg-slate-300 p-8 lg:p-16 xl:scroll-mt-0 xl:p-30 dark:bg-gray-950">
+      <section
+        id="contact"
+        className="flex min-h-screen scroll-mt-16 flex-col items-center justify-center bg-slate-300 p-8 lg:p-16 2xl:scroll-mt-0 2xl:p-32 dark:bg-gray-950"
+      >
+        <div className="flex flex-col items-center justify-center">
           <div className="flex flex-col items-center justify-center text-center">
             <h2 className="mb-4 text-4xl font-bold text-gray-800 xl:text-5xl dark:text-gray-200">
               {t.contact.title}

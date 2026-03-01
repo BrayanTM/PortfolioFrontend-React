@@ -24,16 +24,20 @@
         "description": "A lo largo de mi carrera, he tenido la oportunidad de trabajar en diversos proyectos que me han permitido desarrollar y perfeccionar mis habilidades como desarrollador Full Stack y DevOps. Mi experiencia abarca desde el desarrollo de aplicaciones web hasta la implementación de soluciones en la nube, siempre con un enfoque en la eficiencia, la escalabilidad y la calidad del código.",
         "items": [
             {
-                "title": "Desarrollador Full Stack",
+                "title": "Desarrollador Full Stack Jr.",
                 "company": "Ahau-x",
-                "period": "Dic 2025 - Presente",
-                "description": "Desarrollo y mantenimiento de aplicaciones web y de escritorio orientadas a visión por computadora aplicada a agricultura, implementando nuevas funcionalidades y optimizando flujos en frontend y backend mediante la integración de APIs, bases de datos y servicios en la nube (AWS), priorizando la escalabilidad, estabilidad y visualización efectiva de datos."
+                "work_type": "Jornada Completa",
+                "image_url": "https://res.cloudinary.com/dog9jz83i/image/upload/v1772337170/ahau_x_tnddha.jpg",
+                "period": "Marzo 2026 - Presente",
+                "description": "Desarrollo de software a tiempo completo para el ecosistema de productos de Ahau-x, startup guatemalteca especializada en visión por computadora aplicada a agricultura. Participación activa en el ciclo completo de desarrollo: aplicaciones web (Next.js, TypeScript, React), aplicaciones de escritorio (Python, PySide) y pipelines de análisis de imágenes y datos geoespaciales."
             },
             {
-                "title": "Práctica Profesional Supervisada – Técnico en Electrónica",
-                "company": "Asociación Ajb ' atz ' Enlace Quiché - ONG -",
-                "period": "Jun 2018 - Dic 2018",
-                "description": "Reparación de equipos de cómputo y mantenimiento de software con diagnóstico de fallos y mitigación de riesgos electrónicos, reduciendo un 30% las reincidencias de hardware y un 65% los fallos recurrentes. Implementación de mantenimiento de cableado estructurado bajo estándares internacionales, mejorando un 20% la estabilidad de red y reduciendo un 15% la latencia."
+                "title": "Desarrollador Full Stack Jr.",
+                "company": "Kaax by Ahau-x",
+                "work_type": "Jornada Parcial",
+                "image_url": "https://res.cloudinary.com/dog9jz83i/image/upload/v1772337170/kaax_vtps4q.jpg",
+                "period": "Diciembre 2025 - Marzo 2026",
+                "description": "Desarrollo y mantenimiento de aplicaciones web y de escritorio orientadas a visión por computadora aplicada a agricultura, implementando nuevas funcionalidades y optimizando flujos en frontend y backend mediante la integración de APIs, bases de datos y servicios en la nube (AWS), priorizando la escalabilidad, estabilidad y visualización efectiva de datos."
             }
         ]
     },
@@ -88,8 +92,8 @@
     },
     "contact": {
         "title": "Contacto",
-        "description": "Tienes un proyecto en mente? Hablemos.",
-        "connectWithMe": "Conecta Conmigo",
+        "description": "¿Tienes un proyecto en mente? Hablemos!.",
+        "connectWithMe": "Conecta Conmigo!",
         "alsoFindMe": "Tambien puedes encontrarme en mis redes sociales o enviarme un email directo."
     },
     "footer": {

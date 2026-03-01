@@ -19,7 +19,7 @@ export const Home = () => {
         id="home"
         className="flex min-h-screen scroll-mt-16 flex-col items-center justify-center bg-slate-300 p-8 pt-24 lg:p-16 2xl:p-32 dark:bg-gray-950"
       >
-        <div className="flex flex-col items-center justify-center text-center md:flex-row md:items-center md:justify-between md:text-left">
+        <div className="flex max-w-7xl flex-col items-center justify-center text-center md:flex-row md:items-center md:justify-between md:text-left">
           <div className="md:w-1/2">
             <div className="flex flex-col items-center text-center md:items-start md:text-left lg:mt-12">
               <div className="2xl:flex 2xl:flex-row 2xl:items-baseline 2xl:space-x-4">
