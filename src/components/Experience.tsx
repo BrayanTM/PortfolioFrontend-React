@@ -46,12 +46,40 @@ export const Experience = () => {
                       <span className="inline-block rounded-md bg-blue-700/10 px-2.5 py-1 text-xs font-semibold text-blue-700 2xl:text-sm dark:text-blue-500">
                         {exp.period}
                       </span>
-                      <h3 className="mt-3 text-lg font-bold text-gray-800 lg:text-lg xl:text-xl dark:text-gray-200">
-                        {exp.title}
-                      </h3>
-                      <p className="mt-1 font-medium text-gray-700 lg:text-lg dark:text-gray-400">
-                        {exp.company}
-                      </p>
+                      {isLeft ? (
+                        <div className="flex items-center justify-end gap-4">
+                          <div className="flex flex-col">
+                            <h3 className="mt-3 text-lg font-bold text-gray-800 lg:text-lg xl:text-xl dark:text-gray-200">
+                              {exp.title}
+                            </h3>
+                            <p className="mt-1 font-medium text-gray-700 lg:text-lg dark:text-gray-400">
+                              {exp.company} - {exp.work_type}
+                            </p>
+                          </div>
+                          <img
+                            src={exp.image_url}
+                            alt={exp.company}
+                            className="h-16 w-16 object-contain"
+                          />
+                        </div>
+                      ) : (
+                        <div className="mt-2 flex items-center gap-4">
+                          <img
+                            src={exp.image_url}
+                            alt={exp.company}
+                            className="h-16 w-16 object-contain"
+                          />
+                          <div className="flex flex-col">
+                            <h3 className="mt-3 text-lg font-bold text-gray-800 lg:text-lg xl:text-xl dark:text-gray-200">
+                              {exp.title}
+                            </h3>
+                            <p className="mt-1 font-medium text-gray-700 lg:text-lg dark:text-gray-400">
+                              {exp.company} - {exp.work_type}
+                            </p>
+                          </div>
+                        </div>
+                      )}
+
                       <p className="mt-3 leading-relaxed text-gray-600 lg:text-lg dark:text-gray-500">
                         {exp.description}
                       </p>

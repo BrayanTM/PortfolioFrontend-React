@@ -24,16 +24,20 @@
         "description": "Throughout my career, I have had the opportunity to work on various projects that have allowed me to develop and refine my skills as a Full Stack and DevOps developer. My experience ranges from developing web applications to implementing cloud solutions, always with a focus on efficiency, scalability, and code quality.",
         "items": [
             {
-                "title": "Full Stack Developer",
+                "title": "Full Stack Developer Jr.",
                 "company": "Ahau-x",
-                "period": "Dec 2025 - Present",
-                "description": "Development and maintenance of web and desktop applications focused on computer vision applied to agriculture, implementing new features and optimizing frontend and backend workflows through API integration, databases, and cloud services (AWS), prioritizing scalability, stability, and effective data visualization."
+                "work_type": "Full-time",
+                "image_url": "https://res.cloudinary.com/dog9jz83i/image/upload/v1772337170/ahau_x_tnddha.jpg",
+                "period": "Mar 2026 - Present",
+                "description": "Full-time software development across the Ahau-x product ecosystem, a Guatemalan startup specializing in computer vision applied to agriculture. Active involvement in the full development cycle: web applications (Next.js, TypeScript, React), desktop applications (Python, PySide), and image processing and geospatial data analysis pipelines."
             },
             {
-                "title": "Supervised Professional Practice – Electronics Technician",
-                "company": "Asociación Ajb ' atz ' Enlace Quiché - NGO -",
-                "period": "Jun 2018 - Dec 2018",
-                "description": "Computer equipment repair and software maintenance with fault diagnosis and electronic risk mitigation, reducing hardware recurrences by 30% and recurring failures by 65%. Implementation of structured cabling maintenance under international standards, improving network stability by 20% and reducing latency by 15%."
+                "title": "Full Stack Developer Jr.",
+                "company": "Kaax by Ahau-x",
+                "work_type": "Part-time",
+                "image_url": "https://res.cloudinary.com/dog9jz83i/image/upload/v1772337170/kaax_vtps4q.jpg",
+                "period": "Dec 2025 - Mar 2026",
+                "description": "Development and maintenance of web and desktop applications focused on computer vision applied to agriculture, implementing new features and optimizing frontend and backend workflows through API integration, databases, and cloud services (AWS), prioritizing scalability, stability, and effective data visualization."
             }
         ]
     },
