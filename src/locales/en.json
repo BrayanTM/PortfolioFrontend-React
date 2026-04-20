@@ -11,7 +11,7 @@
         "greeting": "Hello, I'm",
         "name": "José Tebelán",
         "title": "Systems Engineer, Full Stack Developer and DevOps",
-        "description": "Full Stack Developer (Python + TypeScript) with a focus on Backend and DevOps. I develop and maintain web and desktop applications, integrating APIs, databases, and cloud services. I work with Python, JavaScript/TypeScript, AWS, and Docker, aiming to create scalable, stable, and impactful solutions!",
+        "description": "Full Stack Developer with a focus on Backend and DevOps, working as the sole developer alongside the CTO at an agro-tech startup. I've led deep architectural improvements: database restructuring, full REST API refactoring, AWS S3 reorganization, and cascade deletion systems. I work with Python, TypeScript, Next.js, MongoDB, and AWS, focused on building scalable, secure, and production-ready solutions.",
         "projectsButton": "View Projects",
         "downloadCVButton": "Download CV"
     },
@@ -24,20 +24,20 @@
         "description": "Throughout my career, I have had the opportunity to work on various projects that have allowed me to develop and refine my skills as a Full Stack and DevOps developer. My experience ranges from developing web applications to implementing cloud solutions, always with a focus on efficiency, scalability, and code quality.",
         "items": [
             {
-                "title": "Full Stack Developer Jr.",
+                "title": "Full Stack Developer",
                 "company": "Ahau-x",
                 "work_type": "Full-time",
                 "image_url": "https://res.cloudinary.com/dog9jz83i/image/upload/v1772337170/ahau_x_tnddha.jpg",
                 "period": "Mar 2026 - Present",
-                "description": "Full-time software development across the Ahau-x product ecosystem, a Guatemalan startup specializing in computer vision applied to agriculture. Active involvement in the full development cycle: web applications (Next.js, TypeScript, React), desktop applications (Python, PySide), and image processing and geospatial data analysis pipelines."
+                "description": "Full Stack Developer at Ahau-x, a Guatemalan agro-tech startup specializing in computer vision. Working directly alongside the CTO as the sole developer on the team. Proposed and implemented a MongoDB schema restructuring to improve scalability and query performance. Designed a hierarchical AWS S3 storage structure with granular access policies. Built a cascade deletion system with database-level trigger fallback. Fully refactored the REST API with JWT signature verification and strict typing. Developed an admin panel with role-based access control, an auto-update system for desktop apps, and HubSpot CRM integration via webhooks."
             },
             {
-                "title": "Full Stack Developer Jr.",
+                "title": "Full Stack Developer",
                 "company": "Kaax by Ahau-x",
                 "work_type": "Part-time",
                 "image_url": "https://res.cloudinary.com/dog9jz83i/image/upload/v1772337170/kaax_vtps4q.jpg",
                 "period": "Dec 2025 - Mar 2026",
-                "description": "Development and maintenance of web and desktop applications focused on computer vision applied to agriculture, implementing new features and optimizing frontend and backend workflows through API integration, databases, and cloud services (AWS), prioritizing scalability, stability, and effective data visualization."
+                "description": "Development and maintenance of web and desktop applications focused on computer vision applied to agriculture. Implemented new features, fixed critical bugs, and optimized frontend and backend workflows through API integration, databases, and cloud services (AWS). Contributed to solutions combining data processing, results analysis, and visualization, maintaining scalability, stability, and production consistency."
             }
         ]
     },
