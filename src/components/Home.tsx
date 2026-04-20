@@ -47,7 +47,7 @@ export const Home = () => {
               </a>
               <a
                 // https://drive.google.com/file/d/17FLO82g-Rbrd_qeAYFcuZTLGNrdEmnRH/view?usp=sharing
-                href="https://drive.google.com/uc?export=download&id=17FLO82g-Rbrd_qeAYFcuZTLGNrdEmnRH"
+                href="https://drive.google.com/uc?export=download&id=1c2W76cuezTiC4GbClaCVjc2Aop_reTl7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center rounded-md border border-gray-400 px-2 py-2 transition-colors duration-300 hover:bg-gray-200 md:px-4 lg:text-lg dark:border-gray-600 dark:hover:bg-gray-700"

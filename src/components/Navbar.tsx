@@ -66,128 +66,68 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 z-50 h-18 w-full border-y border-gray-400 bg-slate-300/75 p-4 shadow-md backdrop-blur-md dark:bg-gray-950/75 dark:shadow-gray-700">
+      <nav className="fixed top-1 left-1/2 z-50 h-18 w-[85vw] -translate-x-1/2 rounded-[50px] border border-gray-400 bg-slate-300/10 p-4 shadow-md backdrop-blur-md lg:w-[75vw] dark:bg-gray-950/10 dark:shadow-gray-700">
         <div className="container mx-auto flex items-center justify-between px-4">
           <div className="text-2xl font-bold text-gray-800 dark:text-slate-100">
             {t.navbar.logo}
           </div>
-          {isMenuOpen ? (
-            <div className="absolute top-18 left-0 flex w-full flex-col border-b border-gray-400 bg-slate-300 py-4 md:hidden dark:bg-gray-950">
-              <a
-                href="#home"
-                className={`px-4 py-2 transition-colors ${
-                  activeSection === "home"
-                    ? "text-gray-800 dark:text-gray-200"
-                    : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
-                }`}
-                onClick={(event) => handleNavClick(event, "home")}
-              >
-                {t.navbar.home}
-              </a>
-              <a
-                href="#skills"
-                className={`px-4 py-2 transition-colors ${
-                  activeSection === "skills"
-                    ? "text-gray-800 dark:text-gray-200"
-                    : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
-                }`}
-                onClick={(event) => handleNavClick(event, "skills")}
-              >
-                {t.navbar.skills}
-              </a>
-              <a
-                href="#experience"
-                className={`px-4 py-2 transition-colors ${
-                  activeSection === "experience"
-                    ? "text-gray-800 dark:text-gray-200"
-                    : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
-                }`}
-                onClick={(event) => handleNavClick(event, "experience")}
-              >
-                {t.navbar.experience}
-              </a>
-              <a
-                href="#projects"
-                className={`px-4 py-2 transition-colors ${
-                  activeSection === "projects"
-                    ? "text-gray-800 dark:text-gray-200"
-                    : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
-                }`}
-                onClick={(event) => handleNavClick(event, "projects")}
-              >
-                {t.navbar.projects}
-              </a>
-              <a
-                href="#contact"
-                className={`px-4 py-2 transition-colors ${
-                  activeSection === "contact"
-                    ? "text-gray-800 dark:text-gray-200"
-                    : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
-                }`}
-                onClick={(event) => handleNavClick(event, "contact")}
-              >
-                {t.navbar.contact}
-              </a>
-            </div>
-          ) : (
-            <div className="hidden md:flex md:items-center md:space-x-4">
-              <a
-                href="#home"
-                className={`mx-2 transition-colors ${
-                  activeSection === "home"
-                    ? "text-gray-800 dark:text-gray-200"
-                    : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
-                }`}
-                onClick={(event) => handleNavClick(event, "home")}
-              >
-                {t.navbar.home}
-              </a>
-              <a
-                href="#skills"
-                className={`mx-2 transition-colors ${
-                  activeSection === "skills"
-                    ? "text-gray-800 dark:text-gray-200"
-                    : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
-                }`}
-                onClick={(event) => handleNavClick(event, "skills")}
-              >
-                {t.navbar.skills}
-              </a>
-              <a
-                href="#experience"
-                className={`mx-2 transition-colors ${
-                  activeSection === "experience"
-                    ? "text-gray-800 dark:text-gray-200"
-                    : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
-                }`}
-                onClick={(event) => handleNavClick(event, "experience")}
-              >
-                {t.navbar.experience}
-              </a>
-              <a
-                href="#projects"
-                className={`mx-2 transition-colors ${
-                  activeSection === "projects"
-                    ? "text-gray-800 dark:text-gray-200"
-                    : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
-                }`}
-                onClick={(event) => handleNavClick(event, "projects")}
-              >
-                {t.navbar.projects}
-              </a>
-              <a
-                href="#contact"
-                className={`mx-2 transition-colors ${
-                  activeSection === "contact"
-                    ? "text-gray-800 dark:text-gray-200"
-                    : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
-                }`}
-                onClick={(event) => handleNavClick(event, "contact")}
-              >
-                {t.navbar.contact}
-              </a>
-            </div>
-          )}
+          <div className="hidden md:flex md:items-center md:space-x-4">
+            <a
+              href="#home"
+              className={`mx-2 transition-colors ${
+                activeSection === "home"
+                  ? "text-gray-800 dark:text-gray-200"
+                  : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+              }`}
+              onClick={(event) => handleNavClick(event, "home")}
+            >
+              {t.navbar.home}
+            </a>
+            <a
+              href="#skills"
+              className={`mx-2 transition-colors ${
+                activeSection === "skills"
+                  ? "text-gray-800 dark:text-gray-200"
+                  : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+              }`}
+              onClick={(event) => handleNavClick(event, "skills")}
+            >
+              {t.navbar.skills}
+            </a>
+            <a
+              href="#experience"
+              className={`mx-2 transition-colors ${
+                activeSection === "experience"
+                  ? "text-gray-800 dark:text-gray-200"
+                  : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+              }`}
+              onClick={(event) => handleNavClick(event, "experience")}
+            >
+              {t.navbar.experience}
+            </a>
+            <a
+              href="#projects"
+              className={`mx-2 transition-colors ${
+                activeSection === "projects"
+                  ? "text-gray-800 dark:text-gray-200"
+                  : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+              }`}
+              onClick={(event) => handleNavClick(event, "projects")}
+            >
+              {t.navbar.projects}
+            </a>
+            <a
+              href="#contact"
+              className={`mx-2 transition-colors ${
+                activeSection === "contact"
+                  ? "text-gray-800 dark:text-gray-200"
+                  : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+              }`}
+              onClick={(event) => handleNavClick(event, "contact")}
+            >
+              {t.navbar.contact}
+            </a>
+          </div>
 
           {/* Toggle Theme */}
           <div className="flex items-center space-x-2">
@@ -227,7 +167,7 @@ export const Navbar = () => {
               }
             />
             <button
-              className="ml-4 bg-transparent p-2 md:hidden"
+              className="bg-transparent p-2 md:hidden"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? (
@@ -239,6 +179,65 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
+      {isMenuOpen && (
+        <div className="fixed top-19 left-1/2 z-40 flex w-[85vw] -translate-x-1/2 flex-col rounded-lg border border-gray-400 bg-slate-300/10 py-4 backdrop-blur-md lg:w-[75vw] dark:bg-gray-950/10">
+          <a
+            href="#home"
+            className={`px-4 py-2 transition-colors ${
+              activeSection === "home"
+                ? "text-gray-800 dark:text-gray-200"
+                : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+            }`}
+            onClick={(event) => handleNavClick(event, "home")}
+          >
+            {t.navbar.home}
+          </a>
+          <a
+            href="#skills"
+            className={`px-4 py-2 transition-colors ${
+              activeSection === "skills"
+                ? "text-gray-800 dark:text-gray-200"
+                : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+            }`}
+            onClick={(event) => handleNavClick(event, "skills")}
+          >
+            {t.navbar.skills}
+          </a>
+          <a
+            href="#experience"
+            className={`px-4 py-2 transition-colors ${
+              activeSection === "experience"
+                ? "text-gray-800 dark:text-gray-200"
+                : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+            }`}
+            onClick={(event) => handleNavClick(event, "experience")}
+          >
+            {t.navbar.experience}
+          </a>
+          <a
+            href="#projects"
+            className={`px-4 py-2 transition-colors ${
+              activeSection === "projects"
+                ? "text-gray-800 dark:text-gray-200"
+                : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+            }`}
+            onClick={(event) => handleNavClick(event, "projects")}
+          >
+            {t.navbar.projects}
+          </a>
+          <a
+            href="#contact"
+            className={`px-4 py-2 transition-colors ${
+              activeSection === "contact"
+                ? "text-gray-800 dark:text-gray-200"
+                : "text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+            }`}
+            onClick={(event) => handleNavClick(event, "contact")}
+          >
+            {t.navbar.contact}
+          </a>
+        </div>
+      )}
     </>
   );
 };
