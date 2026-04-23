@@ -11,7 +11,7 @@
         "greeting": "Hola, soy",
         "name": "José Tebelán",
         "title": "Ingeniero en Sistemas, Desarrollador Full Stack y DevOps",
-        "description": "Desarrollador Full Stack con enfoque en Backend y DevOps, trabajando como único desarrollador junto al CTO en una startup de agro-tech. He liderado mejoras arquitectónicas de fondo: reestructuración de base de datos, refactorización de API REST, reorganización en AWS S3 y sistemas de eliminación en cascada. Trabajo con Python, TypeScript, Next.js, MongoDB y AWS, enfocado en crear soluciones escalables, seguras y listas para producción.",
+        "description": "Desarrollador Full Stack con enfoque en backend y arquitectura de software, trabajando como único desarrollador junto al CTO en una startup guatemalteca de agro-tech. He propuesto e implementado mejoras arquitectónicas de fondo: migración de esquema en MongoDB, refactorización de API REST, reorganización estructural en AWS S3 y sistema de eliminación en cascada con fallback a nivel de base de datos. Adicionalmente, trabajo en algoritmos de post-procesamiento sobre pipelines de análisis de imágenes y datos geoespaciales. Stack principal: Python, TypeScript, Next.js, MongoDB y AWS.",
         "projectsButton": "Ver Proyectos",
         "downloadCVButton": "Descargar CV"
     },
@@ -29,7 +29,7 @@
                 "work_type": "Jornada Completa",
                 "image_url": "https://res.cloudinary.com/dog9jz83i/image/upload/v1772337170/ahau_x_tnddha.jpg",
                 "period": "Marzo 2026 - Presente",
-                "description": "Full Stack Developer en Ahau-x, startup guatemalteca de agro-tech especializada en visión por computadora. Trabajo directamente junto al CTO siendo el único desarrollador del equipo. Propuse e implementé una reestructuración del esquema de MongoDB para mejorar escalabilidad y tiempos de respuesta. Diseñé una estructura jerárquica en AWS S3 con políticas de acceso granular. Implementé eliminación en cascada con fallback mediante triggers de base de datos. Refactoricé completamente la API REST con verificación JWT y tipado estricto. Desarrollé un panel de administración con control de roles, sistema de actualizaciones automáticas para apps de escritorio e integración con HubSpot via webhooks."
+                "description": "Full Stack Developer en Ahau-x, startup guatemalteca de agro-tech especializada en visión por computadora aplicada a la agricultura. Trabajo directamente junto al CTO como único desarrollador del equipo, con participación en el ciclo completo de desarrollo: aplicaciones web (Next.js, TypeScript, React), aplicaciones de escritorio (Python, PySide) y algoritmos de post-procesamiento sobre pipelines de análisis de imágenes y datos geoespaciales.\n\nDesde mi incorporación he propuesto e implementado mejoras arquitectónicas de fondo: migración de esquema en MongoDB que redujo tiempos de respuesta y mejoró la escalabilidad horizontal, refactorización completa de la API REST con verificación JWT y tipado estricto, reorganización estructural en AWS S3 con políticas de acceso granular, y sistema de eliminación en cascada con fallback mediante triggers de base de datos. Adicionalmente, desarrollé un panel de super admin con control de roles, sistema de actualizaciones automáticas para aplicaciones de escritorio e integración con HubSpot vía webhooks."
             },
             {
                 "title": "Full Stack Developer",
